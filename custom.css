@@ -1,0 +1,331 @@
+.dropdown-menu {
+  display: none;
+  border-radius: 10px;
+}
+
+.carousel-control .fa {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff; 
+  transform: translateY(-50%);
+}
+
+.left.carousel-control .fa {
+  left: 10px; 
+}
+
+.right.carousel-control .fa {
+  right: 10px; 
+}
+
+.carousel-caption h1.heading {
+  font-size: 3.5em; 
+  font-weight: bold; 
+  padding-bottom: 0.5m;
+  text-align: left; 
+  transform: translateY(100%); 
+  animation: fadeInUpBig 1s ease-out forwards;
+}
+.carousel-caption p.paragraph{
+  text-align: left; 
+  font-size: 1.5em; 
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 2%;
+  transform: translateY(100%); 
+  animation: fadeInUpBig 1s ease-out forwards;
+}
+.carousel-caption p.investment{
+  text-align: left; 
+  font-size: 1.5em; 
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 2%;
+}
+.carousel-caption h1.heading[data-delay="100"] {
+  animation-delay: 0.05s; 
+}
+.carousel-caption p.paragraph[data-delay="400"] {
+  animation-delay: 0.1s; 
+}
+@keyframes fadeInUpBig {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section-menu {
+  padding: 50px;
+  background-color: white; 
+}
+.container.gg-content-main-2 {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  flex-wrap: wrap; 
+}
+.col-md-3, .col-xs-6 {
+  flex: 1 1 20%; 
+  max-width: 20%; 
+  box-sizing: border-box; 
+  text-align: center; 
+}
+.col-md-3 img, .col-xs-6 img {
+  width: 100%; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.col-md-3 p, .col-xs-6 p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.col-md-3 a, .col-xs-6 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.col-md-3 a:hover, .col-xs-6 a:hover {
+  color: #4455da; 
+  transition: color 0.3s ease; 
+}
+
+.section-yt {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  width: 100%;
+  height: 100%;
+}
+.carousel-title {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.carousel-yt {
+  position: relative;
+  width: 70%;
+  max-width: 700px;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+.carousel-inner-yt {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.carousel-item-yt {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+.carousel-item-yt img {
+  width: 100%;
+  display: block;
+}
+.carousel-control-yt {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 100;
+  background-color: #fff;
+  font-size: 24px;
+}
+.carousel-control-yt.prev {
+  left: 18%;
+}
+.carousel-control-yt.next {
+  right: 18%;
+}
+
+.item-bg h1 {
+  font-size: 4em; 
+  font-weight: bold; 
+  color: beige;
+}
+.tab-pane {
+  padding: 50px;
+}
+.container-bodytipis {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+h3 {
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+p {
+  margin: 10px 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2em;
+}
+.container-SAA {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: justify; 
+  padding-bottom: 3%;
+}
+.container-SAA h1{
+  padding-top: 2%;
+  text-align: left;
+  font-size: 20px;
+  color: black;
+  padding-bottom: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-SAA p{
+  font-size: 20px; 
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.saa{
+  padding-bottom: 2%;
+}
+.table-issa-guideline-regulasi,
+.table-issa-guideline-kb,
+.table-issa-guideline-takel {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.table-issa-guideline-regulasi td,
+.table-issa-guideline-kb tr td,
+.table-issa-guideline-takel tr td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 1.2em;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.table-issa-guideline-kb .bg-yellow {
+  background-color: #ffff00;
+  font-weight: bold;
+  padding: 8px;
+}
+.container-regulasi {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+.accordion {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+.accordion-item {
+  border-top: 1px solid #ccc;
+}
+.accordion-item:first-child {
+  border-top: none;
+}
+.accordion-button {
+  background-color: #ffffff;
+  border: none;
+  width: 100%;
+  text-align: left;
+  padding: 15px;
+  cursor: pointer;
+  outline: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: background-color 0.2s ease;
+}
+.accordion-button svg {
+  margin-right: 10px; 
+}
+.right-icon {
+  margin-left: 95%; 
+  display: flex;
+}
+.accordion-button:hover,
+.accordion-button.active {
+  background-color: yellow;
+}
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease;
+  padding: 0 15px;
+}
+.accordion-content .table-issa-guideline-regulasi {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px; 
+}
+.accordion-content .table-issa-guideline-regulasi td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h1.heading {
+    font-size: 2em; 
+  }
+  .carousel-caption p.paragraph,
+  .carousel-caption p.investment {
+    font-size: 1.2em; 
+  }
+  .section-menu {
+    padding: 40px; 
+  }
+  .col-md-3, .col-xs-6 {
+    flex: 1 1 45%; 
+    max-width: 45%;
+  }
+  .carousel-yt {
+    width: 90%; 
+  }
+  .item-bg h1 {
+    font-size: 3em; 
+    padding-top: 10%;
+    padding-left: 5%;
+  }
+  .container-bodytipis, .container-SAA, .container-regulasi {
+    padding: 10px; 
+  }
+  .accordion-button {
+    font-size: 1.2em; 
+  }
+  .table-issa-guideline td,
+  .table-issa-guideline-regulasi td,
+  .table-issa-guideline-kb td,
+  .table-issa-guideline-takel td {
+    font-size: 1em; 
+  }
+}
+
+@media (max-width: 480px) {
+  .col-md-3, .col-xs-6 {
+    flex: 1 1 100%; 
+    max-width: 100%;
+  }
+}
