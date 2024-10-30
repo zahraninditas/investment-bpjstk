@@ -1098,7 +1098,10 @@ h5 {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.danakelola img{
+  width:auto;
+  height:350px;
+}
 .invest-bpjs{
   align-items: center;
   justify-content: space-between;
